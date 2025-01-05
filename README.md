@@ -1,9 +1,9 @@
 # Import tools that you need
-  import os
-  from PIL import Image
+    import os
+    from PIL import Image
 
 # Define the WEBP file and JPG file and check the folder that exist
-  def convert_webp_to_jpg(source_folder, target_folder):
+    def convert_webp_to_jpg(source_folder, target_folder):
 
     # Checking the folder
     if not os.path.isdir(source_folder):
