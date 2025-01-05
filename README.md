@@ -31,6 +31,6 @@
     print("Convert Process Finished.")
 
     # Example for your source folder and target folder
-      source_folder = r"GRISAIA"
-      target_folder = r"GRISAIA JPG OMA"
+      source_folder = r"Your Source Folder Name"
+      target_folder = r"Your Target Folder Name"
       convert_webp_to_jpg(source_folder, target_folder)
