@@ -1,12 +1,12 @@
-WEBP TO JPG CONVERTER PYTHON PROGRAM
-YOU MUST CONVERT IT ON FOLDER FILE SO YOU CAN CONVERT IT JUST BY ONE CLICK FOR EVERY FILE WEBP YOU HAVE
+# WEBP TO JPG CONVERTER PYTHON PROGRAM
+# YOU MUST CONVERT IT ON FOLDER FILE SO YOU CAN CONVERT IT JUST BY ONE CLICK FOR EVERY FILE WEBP YOU HAVE
 
 # Import tools that needed
-import os
-from PIL import Image
+    import os
+    from PIL import Image
 
 # Define the WEBP and JPG
-def convert_webp_to_jpg(source_folder, target_folder):
+    def convert_webp_to_jpg(source_folder, target_folder):
 
     # Checking the folder
     if not os.path.isdir(source_folder):
