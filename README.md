@@ -30,7 +30,7 @@
 
     print("Convert Process Finished.")
 
-# Example for your source folder and target folder
-source_folder = r"GRISAIA"
-target_folder = r"GRISAIA JPG OMA"
-convert_webp_to_jpg(source_folder, target_folder)
+    # Example for your source folder and target folder
+      source_folder = r"GRISAIA"
+      target_folder = r"GRISAIA JPG OMA"
+      convert_webp_to_jpg(source_folder, target_folder)
